@@ -8,7 +8,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
    <children>
       <PasswordField layoutX="100.0" layoutY="174.0" maxHeight="-Infinity" maxWidth="131.0" minHeight="-Infinity" minWidth="-Infinity" prefColumnCount="5" prefHeight="26.0" prefWidth="131.0" style="-fx-border-color: #210478;" />
       <AnchorPane prefHeight="80.0" prefWidth="330.0" style="-fx-background-color: lightgray;">
@@ -33,7 +33,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <Button layoutX="117.0" layoutY="237.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="118.0" style="-fx-background-color: #210478;" text="Verify" textFill="WHITE">
+      <Button layoutX="117.0" layoutY="237.0" mnemonicParsing="false" onAction="#loadOpFunc" prefHeight="47.0" prefWidth="118.0" style="-fx-background-color: #210478;" text="Verify" textFill="WHITE">
          <font>
             <Font name="Arial Bold" size="15.0" />
          </font>

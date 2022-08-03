@@ -38,7 +38,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Button fx:id="btnProceed" layoutX="106.0" layoutY="224.0" mnemonicParsing="false" onAction="#getIt" prefHeight="47.0" prefWidth="118.0" style="-fx-background-color: #210478;" text="Proceed" textFill="WHITE">
+      <Button fx:id="btnProceed" layoutX="107.0" layoutY="221.0" mnemonicParsing="false" onAction="#loadVerify" prefHeight="47.0" prefWidth="118.0" style="-fx-background-color: #210478;" text="Proceed" textFill="WHITE">
          <font>
             <Font name="Arial Bold" size="15.0" />
          </font>

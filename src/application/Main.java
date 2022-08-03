@@ -16,16 +16,25 @@ public class Main extends Application {
 	public static void main(String[] args) {
 		launch(args);	}
 	
+	private static Stage stg;
 	@Override
+	
 	public void start(Stage primaryStage) throws IOException {
+		stg=primaryStage;
+		
 		
 		Parent parent = FXMLLoader.load(getClass().getResource("login.fxml"));
 		Scene scene=new Scene(parent);
-		primaryStage.setScene(scene);
-		primaryStage.show();
+		stg.setScene(scene);
+		stg.show();
 		
 		
 		
+	}
+	
+	public void alterScene(String x) throws IOException {
+		  stg.setScene(new Scene(FXMLLoader.load(getClass().getResource(x))));
+	        
 	}
 	
 	
