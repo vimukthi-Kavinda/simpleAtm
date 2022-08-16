@@ -37,7 +37,7 @@
             <Font name="Arial Bold" size="15.0" />
          </font>
       </Button>
-      <Button layoutX="72.0" layoutY="292.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Transfer">
+      <Button layoutX="72.0" layoutY="292.0" mnemonicParsing="false" onAction="#transferFromMyAcc" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Transfer">
          <font>
             <Font size="16.0" />
          </font>
@@ -60,12 +60,12 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="171.0" layoutY="183.0" />
+      <TextField fx:id="txtIpBl" layoutX="171.0" layoutY="183.0" />
       <Label layoutX="23.0" layoutY="225.0" text="Account No" textFill="#210478">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="170.0" layoutY="228.0" />
+      <TextField fx:id="txtaccNo" layoutX="170.0" layoutY="228.0" />
    </children>
 </AnchorPane>

@@ -64,22 +64,22 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="193.0" layoutY="155.0" prefHeight="30.0" prefWidth="133.0">
+      <Label fx:id="lblAccno" layoutX="193.0" layoutY="155.0" prefHeight="30.0" prefWidth="133.0">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="193.0" layoutY="195.0" prefHeight="30.0" prefWidth="133.0">
+      <Label fx:id="lblNm" layoutX="193.0" layoutY="195.0" prefHeight="30.0" prefWidth="133.0">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="193.0" layoutY="236.0" prefHeight="30.0" prefWidth="133.0">
+      <Label fx:id="lblBal" layoutX="193.0" layoutY="236.0" prefHeight="30.0" prefWidth="133.0">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Button layoutX="19.0" layoutY="339.0" mnemonicParsing="false" onAction="#exitFunction" prefHeight="30.0" prefWidth="209.0" style="-fx-background-color: #210478;" text="Make another Transaction" textFill="WHITE">
+      <Button layoutX="19.0" layoutY="339.0" mnemonicParsing="false" onAction="#loadVerify" prefHeight="30.0" prefWidth="209.0" style="-fx-background-color: #210478;" text="Make another Transaction" textFill="WHITE">
          <font>
             <Font name="Arial Bold" size="15.0" />
          </font>

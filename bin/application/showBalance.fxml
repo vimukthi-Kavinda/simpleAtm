@@ -46,17 +46,17 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="183.0" layoutY="145.0" prefHeight="30.0" prefWidth="133.0">
+      <Label fx:id="lblAccno" layoutX="183.0" layoutY="145.0" prefHeight="30.0" prefWidth="133.0">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="183.0" layoutY="185.0" prefHeight="30.0" prefWidth="133.0">
+      <Label fx:id="lblNm" layoutX="183.0" layoutY="185.0" prefHeight="30.0" prefWidth="133.0">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="183.0" layoutY="226.0" prefHeight="30.0" prefWidth="133.0">
+      <Label fx:id="lblBal" layoutX="183.0" layoutY="226.0" prefHeight="30.0" prefWidth="133.0">
          <font>
             <Font size="20.0" />
          </font>
