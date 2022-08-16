@@ -43,7 +43,7 @@
                </stops>
             </LinearGradient>
          </textFill></Button>
-      <Button layoutX="63.0" layoutY="308.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Transfer Money">
+      <Button layoutX="63.0" layoutY="308.0" mnemonicParsing="false" onAction="#loadTransfer" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Transfer Money">
          <font>
             <Font size="16.0" />
          </font>
@@ -55,7 +55,7 @@
                </stops>
             </LinearGradient>
          </textFill></Button>
-      <Button layoutX="64.0" layoutY="219.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Withdraw Money">
+      <Button layoutX="64.0" layoutY="219.0" mnemonicParsing="false" onAction="#loadWithdraw" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Withdraw Money">
          <font>
             <Font size="16.0" />
          </font>
@@ -67,7 +67,7 @@
                </stops>
             </LinearGradient>
          </textFill></Button>
-      <Button layoutX="65.0" layoutY="264.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Deposit Money">
+      <Button layoutX="65.0" layoutY="264.0" mnemonicParsing="false" onAction="#loadDeposit" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Deposit Money">
          <font>
             <Font size="16.0" />
          </font>

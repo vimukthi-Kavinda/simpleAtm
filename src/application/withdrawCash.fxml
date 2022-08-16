@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.paint.LinearGradient?>
 <?import javafx.scene.paint.Stop?>
@@ -31,7 +32,22 @@
             </Label>
          </children>
       </AnchorPane>
-      <Button layoutX="63.0" layoutY="173.0" mnemonicParsing="false" onAction="#loadBalance" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Check Account Balance">
+      <Button layoutX="264.0" layoutY="344.0" mnemonicParsing="false" onAction="#exitFunction" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #210478;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="51.0" layoutY="104.0" text="Withdraw Money" textFill="#210478">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="170.0" text="Input Amount" textFill="#210478">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="66.0" layoutY="242.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Withdraw Money">
          <font>
             <Font size="16.0" />
          </font>
@@ -42,42 +58,8 @@
                   <Stop color="WHITE" offset="1.0" />
                </stops>
             </LinearGradient>
-         </textFill></Button>
-      <Button layoutX="63.0" layoutY="308.0" mnemonicParsing="false" onAction="#loadTransfer" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Transfer Money">
-         <font>
-            <Font size="16.0" />
-         </font>
-         <textFill>
-            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.29523809523809524">
-               <stops>
-                  <Stop color="#5fa8f2" />
-                  <Stop color="WHITE" offset="1.0" />
-               </stops>
-            </LinearGradient>
-         </textFill></Button>
-      <Button layoutX="64.0" layoutY="219.0" mnemonicParsing="false" onAction="#loadWithdraw" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Withdraw Money">
-         <font>
-            <Font size="16.0" />
-         </font>
-         <textFill>
-            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.29523809523809524">
-               <stops>
-                  <Stop color="#5fa8f2" />
-                  <Stop color="WHITE" offset="1.0" />
-               </stops>
-            </LinearGradient>
-         </textFill></Button>
-      <Button layoutX="65.0" layoutY="264.0" mnemonicParsing="false" onAction="#loadDeposit" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Deposit Money">
-         <font>
-            <Font size="16.0" />
-         </font>
-         <textFill>
-            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.29523809523809524">
-               <stops>
-                  <Stop color="#5fa8f2" />
-                  <Stop color="WHITE" offset="1.0" />
-               </stops>
-            </LinearGradient>
-         </textFill></Button>
+         </textFill>
+      </Button>
+      <TextField layoutX="161.0" layoutY="173.0" />
    </children>
 </AnchorPane>

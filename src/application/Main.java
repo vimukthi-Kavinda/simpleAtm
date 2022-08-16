@@ -9,12 +9,18 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 
 
-
-public class Main extends Application {
-	
+//
+public class Main extends Application{
 	
 	public static void main(String[] args) {
-		launch(args);	}
+		launch(args);
+		
+	
+		
+		
+		
+		
+		}
 	
 	private static Stage stg;
 	@Override
@@ -32,10 +38,10 @@ public class Main extends Application {
 		
 	}
 	
-	public void alterScene(String x) throws IOException {
-		  stg.setScene(new Scene(FXMLLoader.load(getClass().getResource(x))));
+	/*public void alterScene(String x) throws IOException {
+		  //stg.setScene(new Scene(FXMLLoader.load(getClass().getResource(x))));
 	        
-	}
+	}*/
 	
 	
 }
