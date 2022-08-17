@@ -47,7 +47,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Button layoutX="66.0" layoutY="242.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Withdraw Money">
+      <Button layoutX="66.0" layoutY="242.0" mnemonicParsing="false" onAction="#withdraw" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Withdraw Money">
          <font>
             <Font size="16.0" />
          </font>
@@ -60,6 +60,6 @@
             </LinearGradient>
          </textFill>
       </Button>
-      <TextField layoutX="161.0" layoutY="173.0" />
+      <TextField fx:id="txtWithdrawFld" layoutX="161.0" layoutY="173.0" />
    </children>
 </AnchorPane>

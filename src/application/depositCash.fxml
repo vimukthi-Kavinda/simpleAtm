@@ -37,7 +37,7 @@
             <Font name="Arial Bold" size="15.0" />
          </font>
       </Button>
-      <Button layoutX="75.0" layoutY="274.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Deposit Money">
+      <Button layoutX="75.0" layoutY="274.0" mnemonicParsing="false" onAction="#deposit" prefHeight="37.0" prefWidth="199.0" style="-fx-background-color: #210478;" text="Deposit Money">
          <font>
             <Font size="16.0" />
          </font>
@@ -60,6 +60,6 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="171.0" layoutY="183.0" />
+      <TextField fx:id="txtDepositFld" layoutX="171.0" layoutY="183.0" />
    </children>
 </AnchorPane>
